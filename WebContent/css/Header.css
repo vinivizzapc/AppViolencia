@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+nav{
+	background: linear-gradient(#CD1076, #EE1289);
+}
+
+.navbar-brand{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.nav-item{
+	cursor: pointer;
+}
+
+li i{
+	vertical-align: middle;
+}
+
+li a{
+	font-size: 13px;
+}
+
+button i{
+	vertical-align: middle;
+}
+
+.seila{
+	display: none;
+}
+
+@media (max-width: 3000px){
+	.seila{
+		display: block;
+	}
+}
+
+.imgtop{
+	margin-right: 6px;
+	width: 70px; 
+	height: 50px;
+	text-decoration: none;
+}
+
+.linkPrin{
+	text-decoration: none;
+}

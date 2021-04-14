@@ -1,0 +1,106 @@
+@charset "ISO-8859-1";
+
+.cadastroletraLogin{
+    background-color: white;
+    border-left: 300px solid #FFC1C1; 
+    border-right: 300px solid #FFC1C1; 
+    border-top: 100px solid #FFC1C1; 
+    border-bottom: 150px solid #FFC1C1; 
+}
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+}
+
+.ladoEsquerdo{
+	background-color: #FFC1C1;
+	padding-top: 30px;
+	text-align: center;
+}
+
+div .ladoEsquerdo{
+  text-align: center;
+  padding-left: 50px;
+}
+
+img {
+    width: 300px;
+    align-items: center;
+}
+
+.tela-login{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+.botao:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+.botao i {
+    margin-right: 20px;
+}
+
+.titulo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding-top: 230px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+}
+
+@media (max-width: 800px) {
+    .tela-login{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .titulo {
+        padding-top: 50px;
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .texto {
+        margin-bottom: 50px;
+    }
+    
+   
+}
+
+.tit{
+	 font-size: 17px;
+	 font-weight: 500;
+}
+
+.containerLogin{
+	padding-bottom: 50px;
+}
+
+.check{
+	margin-left: 17px;
+	margin-right: 5px;
+}
+
+.mostSenha{
+	font-size: 12px;	
+}

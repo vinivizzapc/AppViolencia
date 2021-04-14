@@ -1,0 +1,26 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+	background-color: mistyrose;
+}
+
+.containerLogin{
+	padding-bottom: 280px;
+}		
+
+.tit{
+	 font-size: 17px;
+	 font-weight: 500;
+}
+
+.check{
+	margin-left: 17px;
+	margin-right: 5px;
+}
+
+.mostSenha{
+	font-size: 12px;	
+}

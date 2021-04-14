@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #FFC1C1;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 600px;
+    padding-top: 80px;
+}
+
+.tela-login{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    margin-left: 140px;
+}
+
+.botao:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+.botao i {
+    margin-right: 20px;
+}
+
+.titulo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding-top: 230px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+}
+
+@media (max-width: 800px) {
+    .tela-login{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .titulo {
+        padding-top: 50px;
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .texto {
+        margin-bottom: 50px;
+    }
+}
